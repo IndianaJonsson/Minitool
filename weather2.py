@@ -5,7 +5,7 @@ import sys
 # ==========================================
 # ⚙️ CONFIGURATION
 # ==========================================
-API_KEY = "cb8f5cacd3d3ca10e0cd323c78346ca2" 
+API_KEY = ""
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 # ==========================================
@@ -84,4 +84,5 @@ def main():
         current_city = None 
 
 if __name__ == "__main__":
+
     main()
